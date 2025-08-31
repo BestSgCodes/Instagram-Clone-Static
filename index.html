@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="input.css" />
+    <title>Document</title>
+  </head>
+  <body class="flex">
+    <div
+      id="navbar"
+      class="flex h-screen w-56 flex-col border-r-gray-300 border-r-1 fixed"
+    >
+      <div id="logo" class="mt-7 flex items-center w-56">
+        <img src="Instagram_logo.svg.png" alt="Logo" class="h-10 ml-5" />
+      </div>
+      <div
+        id="nav-btns"
+        class="mt-11 flex flex-col h-screen w-56 items-center space-y-3"
+      >
+        <div
+          class="flex h-[48px] items-center hover:bg-gray-100 hover:rounded-[10px] w-50"
+        >
+          <div>
+            <svg
+              class="h-8 w-12"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 640 640"
+            >
+              <!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+              <path
+                d="M304 70.1C313.1 61.9 326.9 61.9 336 70.1L568 278.1C577.9 286.9 578.7 302.1 569.8 312C560.9 321.9 545.8 322.7 535.9 313.8L527.9 306.6L527.9 511.9C527.9 547.2 499.2 575.9 463.9 575.9L175.9 575.9C140.6 575.9 111.9 547.2 111.9 511.9L111.9 306.6L103.9 313.8C94 322.6 78.9 321.8 70 312C61.1 302.2 62 287 71.8 278.1L304 70.1zM320 120.2L160 263.7L160 512C160 520.8 167.2 528 176 528L224 528L224 424C224 384.2 256.2 352 296 352L344 352C383.8 352 416 384.2 416 424L416 528L464 528C472.8 528 480 520.8 480 512L480 263.7L320 120.3zM272 528L368 528L368 424C368 410.7 357.3 400 344 400L296 400C282.7 400 272 410.7 272 424L272 528z"
+              />
+            </svg>
+          </div>
+          <div class="text-center">
+            <a href="#"><b>Home</b></a>
+          </div>
+        </div>
+        <div
+          class="flex h-[48px] items-center hover:bg-gray-100 hover:rounded-[10px] w-50"
+        >
+          <div>
+            <svg
+              class="h-8 w-12"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 640 640"
+            >
+              <!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+              <path
+                d="M480 272C480 317.9 465.1 360.3 440 394.7L566.6 521.4C579.1 533.9 579.1 554.2 566.6 566.7C554.1 579.2 533.8 579.2 521.3 566.7L394.7 440C360.3 465.1 317.9 480 272 480C157.1 480 64 386.9 64 272C64 157.1 157.1 64 272 64C386.9 64 480 157.1 480 272zM272 416C351.5 416 416 351.5 416 272C416 192.5 351.5 128 272 128C192.5 128 128 192.5 128 272C128 351.5 192.5 416 272 416z"
+              />
+            </svg>
+          </div>
+          <div>
+            <a href="#">Search</a>
+          </div>
+        </div>
+        <div
+          class="flex h-[48px] items-center hover:bg-gray-100 hover:rounded-[10px] w-50"
+        >
+          <div>
+            <svg
+              class="h-8 w-12"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 640 640"
+            >
+              <!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+              <path
+                d="M320 576C461.4 576 576 461.4 576 320C576 178.6 461.4 64 320 64C178.6 64 64 178.6 64 320C64 461.4 178.6 576 320 576zM370.7 389.1L226.4 444.6C207 452.1 187.9 433 195.4 413.6L250.9 269.3C254.2 260.8 260.8 254.2 269.3 250.9L413.6 195.4C433 187.9 452.1 207 444.6 226.4L389.1 370.7C385.9 379.2 379.2 385.8 370.7 389.1zM352 320C352 302.3 337.7 288 320 288C302.3 288 288 302.3 288 320C288 337.7 302.3 352 320 352C337.7 352 352 337.7 352 320z"
+              />
+            </svg>
+          </div>
+          <div>
+            <a href="#">Explore</a>
+          </div>
+        </div>
+        <div
+          class="flex h-[48px] items-center hover:bg-gray-100 hover:rounded-[10px] w-50"
+        >
+          <div>
+            <img class="h-8 w-12" src="film-svgrepo-com.svg" alt="Reels" />
+          </div>
+          <div>
+            <a href="#">Reels</a>
+          </div>
+        </div>
+        <div
+          class="flex h-[48px] items-center hover:bg-gray-100 hover:rounded-[10px] w-50"
+        >
+          <div>
+            <svg
+              class="h-8 w-12"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 640 640"
+            >
+              <!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+              <path
+                d="M322.5 351.7L523.4 150.9L391 520.3L322.5 351.7zM489.4 117L288.6 317.8L120 249.3L489.4 117zM70.1 280.8L275.9 364.4L359.5 570.2C364.8 583.3 377.6 591.9 391.8 591.9C406.5 591.9 419.6 582.7 424.6 568.8L602.6 72C606.1 62.2 603.6 51.4 596.3 44C589 36.6 578.1 34.2 568.3 37.7L71.4 215.7C57.5 220.7 48.3 233.8 48.3 248.5C48.3 262.7 56.9 275.5 70 280.8z"
+              />
+            </svg>
+          </div>
+          <div>
+            <a href="#">Messages</a>
+          </div>
+        </div>
+        <div
+          class="flex h-[48px] items-center hover:bg-gray-100 hover:rounded-[10px] w-50"
+        >
+          <div>
+            <svg
+              class="h-8 w-12"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 640 640"
+            >
+              <!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+              <path
+                d="M442.9 144C415.6 144 389.9 157.1 373.9 179.2L339.5 226.8C335 233 327.8 236.7 320.1 236.7C312.4 236.7 305.2 233 300.7 226.8L266.3 179.2C250.3 157.1 224.6 144 197.3 144C150.3 144 112.2 182.1 112.2 229.1C112.2 279 144.2 327.5 180.3 371.4C221.4 421.4 271.7 465.4 306.2 491.7C309.4 494.1 314.1 495.9 320.2 495.9C326.3 495.9 331 494.1 334.2 491.7C368.7 465.4 419 421.3 460.1 371.4C496.3 327.5 528.2 279 528.2 229.1C528.2 182.1 490.1 144 443.1 144zM335 151.1C360 116.5 400.2 96 442.9 96C516.4 96 576 155.6 576 229.1C576 297.7 533.1 358 496.9 401.9C452.8 455.5 399.6 502 363.1 529.8C350.8 539.2 335.6 543.9 320 543.9C304.4 543.9 289.2 539.2 276.9 529.8C240.4 502 187.2 455.5 143.1 402C106.9 358.1 64 297.7 64 229.1C64 155.6 123.6 96 197.1 96C239.8 96 280 116.5 305 151.1L320 171.8L335 151.1z"
+              />
+            </svg>
+          </div>
+          <div>
+            <a href="#">Notification</a>
+          </div>
+        </div>
+        <div
+          class="flex h-[48px] items-center hover:bg-gray-100 hover:rounded-[10px] w-50"
+        >
+          <div>
+            <svg
+              class="h-8 w-12"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 640 640"
+            >
+              <!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+              <path
+                d="M160 144C151.2 144 144 151.2 144 160L144 480C144 488.8 151.2 496 160 496L480 496C488.8 496 496 488.8 496 480L496 160C496 151.2 488.8 144 480 144L160 144zM96 160C96 124.7 124.7 96 160 96L480 96C515.3 96 544 124.7 544 160L544 480C544 515.3 515.3 544 480 544L160 544C124.7 544 96 515.3 96 480L96 160zM296 408L296 344L232 344C218.7 344 208 333.3 208 320C208 306.7 218.7 296 232 296L296 296L296 232C296 218.7 306.7 208 320 208C333.3 208 344 218.7 344 232L344 296L408 296C421.3 296 432 306.7 432 320C432 333.3 421.3 344 408 344L344 344L344 408C344 421.3 333.3 432 320 432C306.7 432 296 421.3 296 408z"
+              />
+            </svg>
+          </div>
+          <div>
+            <a href="#">Create</a>
+          </div>
+        </div>
+        <div
+          class="flex h-[48px] items-center hover:bg-gray-100 hover:rounded-[10px] w-50"
+        >
+          <div>
+            <img
+              class="h-8 w-12"
+              src="bar-chart-3-svgrepo-com.svg"
+              alt="Analytics"
+            />
+          </div>
+          <div>
+            <a href="#">Dashboard</a>
+          </div>
+        </div>
+        <div
+          class="flex h-[48px] items-center hover:bg-gray-100 hover:rounded-[10px] w-50"
+        >
+          <div>
+            <img class="h-8 w-8 ml-2 rounded-full" src="pfp.jpg" alt="pfp" />
+          </div>
+          <div>
+            <a href="#" class="ml-2">Profile</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="middle-area" class="w-3/5 ml-56">
+    <div id="story-section" class="h-36 w-full flex items-center justify-center">
+      <div id="story" class="h-32 w-4/5 flex">
+        <div
+          id="s-1"
+          class="h-32 w-32 flex justify-center items-center flex-col"
+        >
+          <div
+            id="border"
+            class="h-24 w-24 bg-[linear-gradient(to_right,#FEDA75,#FA7E1E),linear-gradient(to_bottom,#D62976,#962FBF,#4F5BD5)] p-1 rounded-full flex items-center justify-center"
+          >
+            <div
+              id="pfp"
+              class="h-22 w-22 z-10 rounded-full flex items-center justify-center"
+            >
+              <img
+                src="pfp1.jpg"
+                alt=""
+                class="rounded-full w-22 h-22 border-white border-2"
+              />
+            </div>
+          </div>
+          <p class="text-[12px]">saksham_garg4502</p>
+        </div>
+
+        <div
+          id="s-2"
+          class="h-32 w-32 flex justify-center items-center flex-col"
+        >
+          <div
+            id="border"
+            class="h-24 w-24 bg-[linear-gradient(to_right,#FEDA75,#FA7E1E),linear-gradient(to_bottom,#D62976,#962FBF,#4F5BD5)] p-1 rounded-full flex items-center justify-center"
+          >
+            <div
+              id="pfp"
+              class="h-22 w-22 z-10 rounded-full flex items-center justify-center"
+            >
+              <img
+                src="pfp2.jpg"
+                alt=""
+                class="rounded-full w-22 h-22 border-white border-2"
+              />
+            </div>
+          </div>
+          <p class="text-[12px]">saleem.nitt</p>
+        </div>
+
+        <div
+          id="s-3"
+          class="h-32 w-32 flex justify-center items-center flex-col"
+        >
+          <div
+            id="border"
+            class="h-24 w-24 bg-[linear-gradient(to_right,#FEDA75,#FA7E1E),linear-gradient(to_bottom,#D62976,#962FBF,#4F5BD5)] p-1 rounded-full flex items-center justify-center"
+          >
+            <div
+              id="pfp"
+              class="h-22 w-22 z-10 rounded-full flex items-center justify-center"
+            >
+              <img
+                src="pfp3.jpg"
+                alt=""
+                class="rounded-full w-22 h-22 border-white border-2"
+              />
+            </div>
+          </div>
+          <p class="text-[12px]">faizalrazaq...</p>
+        </div>
+
+        <div
+          id="s-4"
+          class="h-32 w-32 flex justify-center items-center flex-col"
+        >
+          <div
+            id="border"
+            class="h-24 w-24 bg-[linear-gradient(to_right,#FEDA75,#FA7E1E),linear-gradient(to_bottom,#D62976,#962FBF,#4F5BD5)] p-1 rounded-full flex items-center justify-center"
+          >
+            <div
+              id="pfp"
+              class="h-22 w-22 z-10 rounded-full flex items-center justify-center"
+            >
+              <img
+                src="pfp4.jpg"
+                alt=""
+                class="rounded-full w-22 h-22 border-white border-2"
+              />
+            </div>
+          </div>
+          <p class="text-[12px]">mudit.garg0209</p>
+        </div>
+
+        <div
+          id="s-5"
+          class="h-32 w-32 flex justify-center items-center flex-col"
+        >
+          <div
+            id="border"
+            class="h-24 w-24 bg-[linear-gradient(to_right,#FEDA75,#FA7E1E),linear-gradient(to_bottom,#D62976,#962FBF,#4F5BD5)] p-1 rounded-full flex items-center justify-center"
+          >
+            <div
+              id="pfp"
+              class="h-22 w-22 z-10 rounded-full flex items-center justify-center"
+            >
+              <img
+                src="pfp5.jpg"
+                alt=""
+                class="rounded-full w-22 h-22 border-white border-2"
+              />
+            </div>
+          </div>
+          <p class="text-[12px]">sachinjakhar</p>
+        </div>
+
+        <div
+          id="s-6"
+          class="h-32 w-32 flex justify-center items-center flex-col"
+        >
+          <div
+            id="border"
+            class="h-24 w-24 bg-[linear-gradient(to_right,#FEDA75,#FA7E1E),linear-gradient(to_bottom,#D62976,#962FBF,#4F5BD5)] p-1 rounded-full flex items-center justify-center"
+          >
+            <div
+              id="pfp"
+              class="h-22 w-22 z-10 rounded-full flex items-center justify-center"
+            >
+              <img
+                src="pfp6.jpg"
+                alt=""
+                class="rounded-full w-22 h-22 border-white border-2"
+              />
+            </div>
+          </div>
+          <p class="text-[12px]">garvitagg.45</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="reels-section" class="w-full h-full flex flex-col items-center justify-center">
+      <div id="reel1" class="h-full w-3/5 flex flex-col">
+        <div id="profile" class="h-14 w-full flex">
+          <div id="dp" class="w-12 h-8 rounded-full">
+            <img src="pfp-reel1.jpg" alt="Dadhi" class="h-8 w-8 rounded-full border-gray-400 border-[1px]">
+          </div>
+          <div id="id" class="flex flex-col h-full">
+            <div id="top-text" class="flex w-96">
+            <p class="text-[14px] ml-1 font-semibold">dadhiwalesir</p>
+            <p class="ml-1 text-[14px]">•</p>
+            <p class="text-gray-400 text-[16px] ml-2">2d</p>
+            </div>
+            <div id="bottom-text" class="">
+              <p class="text-[12px] ml-1 mt-[-7px]">Original Audio</p>
+            </div>
+          </div>
+          <div id="options" class="h-full w-14 flex items-center justify-center  hover:cursor-pointer">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" class="h-[20px]"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M128 352C110.3 352 96 366.3 96 384C96 401.7 110.3 416 128 416L512 416C529.7 416 544 401.7 544 384C544 366.3 529.7 352 512 352L128 352zM128 224C110.3 224 96 238.3 96 256C96 273.7 110.3 288 128 288L512 288C529.7 288 544 273.7 544 256C544 238.3 529.7 224 512 224L128 224z"/></svg>
+          </div>
+        </div>
+        <div id="video" class="w-full h-[600px] bg-black">
+          <video src="Video-678.mp4" class="h-full w-full" autoplay="true" muted="true" loop="true" controls ></video>
+        </div>
+        <div id="bio" class="h-full w-full">
+          <div id="stats" class="h-20 w-full">
+            <div id="option" class="flex justify-between">
+              <div id="like" class="flex">
+              <div id="like">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" class="h-7 mt-4"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M442.9 144C415.6 144 389.9 157.1 373.9 179.2L339.5 226.8C335 233 327.8 236.7 320.1 236.7C312.4 236.7 305.2 233 300.7 226.8L266.3 179.2C250.3 157.1 224.6 144 197.3 144C150.3 144 112.2 182.1 112.2 229.1C112.2 279 144.2 327.5 180.3 371.4C221.4 421.4 271.7 465.4 306.2 491.7C309.4 494.1 314.1 495.9 320.2 495.9C326.3 495.9 331 494.1 334.2 491.7C368.7 465.4 419 421.3 460.1 371.4C496.3 327.5 528.2 279 528.2 229.1C528.2 182.1 490.1 144 443.1 144zM335 151.1C360 116.5 400.2 96 442.9 96C516.4 96 576 155.6 576 229.1C576 297.7 533.1 358 496.9 401.9C452.8 455.5 399.6 502 363.1 529.8C350.8 539.2 335.6 543.9 320 543.9C304.4 543.9 289.2 539.2 276.9 529.8C240.4 502 187.2 455.5 143.1 402C106.9 358.1 64 297.7 64 229.1C64 155.6 123.6 96 197.1 96C239.8 96 280 116.5 305 151.1L320 171.8L335 151.1z"/></svg>
+              </div>
+              <div id="comment">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" class="h-7 mt-4 ml-1"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M115.9 448.9C83.3 408.6 64 358.4 64 304C64 171.5 178.6 64 320 64C461.4 64 576 171.5 576 304C576 436.5 461.4 544 320 544C283.5 544 248.8 536.8 217.4 524L101 573.9C97.3 575.5 93.5 576 89.5 576C75.4 576 64 564.6 64 550.5C64 546.2 65.1 542 67.1 538.3L115.9 448.9zM153.2 418.7C165.4 433.8 167.3 454.8 158 471.9L140 505L198.5 479.9C210.3 474.8 223.7 474.7 235.6 479.6C261.3 490.1 289.8 496 319.9 496C437.7 496 527.9 407.2 527.9 304C527.9 200.8 437.8 112 320 112C202.2 112 112 200.8 112 304C112 346.8 127.1 386.4 153.2 418.7z"/></svg>
+              </div>
+              <div id="share">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" class="h-6 mt-4.5 ml-1"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M322.5 351.7L523.4 150.9L391 520.3L322.5 351.7zM489.4 117L288.6 317.8L120 249.3L489.4 117zM70.1 280.8L275.9 364.4L359.5 570.2C364.8 583.3 377.6 591.9 391.8 591.9C406.5 591.9 419.6 582.7 424.6 568.8L602.6 72C606.1 62.2 603.6 51.4 596.3 44C589 36.6 578.1 34.2 568.3 37.7L71.4 215.7C57.5 220.7 48.3 233.8 48.3 248.5C48.3 262.7 56.9 275.5 70 280.8z"/></svg>
+              </div>
+              </div>
+              <div id="save">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" class="h-6 mt-4.5 ml-1"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M128 128C128 92.7 156.7 64 192 64L448 64C483.3 64 512 92.7 512 128L512 545.1C512 570.7 483.5 585.9 462.2 571.7L320 476.8L177.8 571.7C156.5 585.9 128 570.6 128 545.1L128 128zM192 112C183.2 112 176 119.2 176 128L176 515.2L293.4 437C309.5 426.3 330.5 426.3 346.6 437L464 515.2L464 128C464 119.2 456.8 112 448 112L192 112z"/></svg>
+              </div>
+            </div>
+
+            <div id="likes-count">
+              <p class="font-bold text-[12px] mt-3">4,240 likes</p>
+            </div>
+            <div id="bio-content" class="text-[14px] h-full">
+              <p><b>dadhiwalesir</b>
+               Solve kar lena, btana kaisa laga❤️
+               #dadhiwalesir #ashusir #cbse #physics #class11
+              </p>
+               <br>
+               <div>
+               <p class="text-gray-400 text-[16px]">View All 5 Comments</p>
+               </div>
+               <div>
+                <p class="text-gray-400">Add a comment...</p>
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="h-[2px] mt-12 bg-gray-400 w-3/5"></div>
+
+      <div id="reel2" class="h-full mt-8 w-3/5 flex flex-col">
+        <div id="profile" class="h-14 w-full flex">
+          <div id="dp" class="w-12 h-8 rounded-full">
+            <img src="pfp-reel2.jpg" alt="Dadhi" class="h-8 w-8 rounded-full border-gray-400 border-[1px]">
+          </div>
+          <div id="id" class="flex flex-col h-full">
+            <div id="top-text" class="flex w-96">
+            <p class="text-[14px] ml-1 font-semibold">z.o.y.a_naaj</p>
+            <p class="ml-1 text-[14px]">•</p>
+            <p class="text-gray-400 text-[16px] ml-2">1w</p>
+            </div>
+            <div id="bottom-text" class="">
+              <p class="text-[12px] ml-1 mt-[-7px]">Original Audio</p>
+            </div>
+          </div>
+          <div id="options" class="h-full w-14 flex items-center justify-center  hover:cursor-pointer">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" class="h-[20px]"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M128 352C110.3 352 96 366.3 96 384C96 401.7 110.3 416 128 416L512 416C529.7 416 544 401.7 544 384C544 366.3 529.7 352 512 352L128 352zM128 224C110.3 224 96 238.3 96 256C96 273.7 110.3 288 128 288L512 288C529.7 288 544 273.7 544 256C544 238.3 529.7 224 512 224L128 224z"/></svg>
+          </div>
+        </div>
+        <div id="video" class="w-full h-[600px] bg-black">
+          <video src="Video-431.mp4" class="h-full w-full" autoplay="true" muted="true" loop="true" controls ></video>
+        </div>
+        <div id="bio" class="h-full w-full">
+          <div id="stats" class="h-20 w-full">
+            <div id="option" class="flex justify-between">
+              <div id="like" class="flex">
+              <div id="like">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" class="h-7 mt-4"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M442.9 144C415.6 144 389.9 157.1 373.9 179.2L339.5 226.8C335 233 327.8 236.7 320.1 236.7C312.4 236.7 305.2 233 300.7 226.8L266.3 179.2C250.3 157.1 224.6 144 197.3 144C150.3 144 112.2 182.1 112.2 229.1C112.2 279 144.2 327.5 180.3 371.4C221.4 421.4 271.7 465.4 306.2 491.7C309.4 494.1 314.1 495.9 320.2 495.9C326.3 495.9 331 494.1 334.2 491.7C368.7 465.4 419 421.3 460.1 371.4C496.3 327.5 528.2 279 528.2 229.1C528.2 182.1 490.1 144 443.1 144zM335 151.1C360 116.5 400.2 96 442.9 96C516.4 96 576 155.6 576 229.1C576 297.7 533.1 358 496.9 401.9C452.8 455.5 399.6 502 363.1 529.8C350.8 539.2 335.6 543.9 320 543.9C304.4 543.9 289.2 539.2 276.9 529.8C240.4 502 187.2 455.5 143.1 402C106.9 358.1 64 297.7 64 229.1C64 155.6 123.6 96 197.1 96C239.8 96 280 116.5 305 151.1L320 171.8L335 151.1z"/></svg>
+              </div>
+              <div id="comment">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" class="h-7 mt-4 ml-1"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M115.9 448.9C83.3 408.6 64 358.4 64 304C64 171.5 178.6 64 320 64C461.4 64 576 171.5 576 304C576 436.5 461.4 544 320 544C283.5 544 248.8 536.8 217.4 524L101 573.9C97.3 575.5 93.5 576 89.5 576C75.4 576 64 564.6 64 550.5C64 546.2 65.1 542 67.1 538.3L115.9 448.9zM153.2 418.7C165.4 433.8 167.3 454.8 158 471.9L140 505L198.5 479.9C210.3 474.8 223.7 474.7 235.6 479.6C261.3 490.1 289.8 496 319.9 496C437.7 496 527.9 407.2 527.9 304C527.9 200.8 437.8 112 320 112C202.2 112 112 200.8 112 304C112 346.8 127.1 386.4 153.2 418.7z"/></svg>
+              </div>
+              <div id="share">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" class="h-6 mt-4.5 ml-1"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M322.5 351.7L523.4 150.9L391 520.3L322.5 351.7zM489.4 117L288.6 317.8L120 249.3L489.4 117zM70.1 280.8L275.9 364.4L359.5 570.2C364.8 583.3 377.6 591.9 391.8 591.9C406.5 591.9 419.6 582.7 424.6 568.8L602.6 72C606.1 62.2 603.6 51.4 596.3 44C589 36.6 578.1 34.2 568.3 37.7L71.4 215.7C57.5 220.7 48.3 233.8 48.3 248.5C48.3 262.7 56.9 275.5 70 280.8z"/></svg>
+              </div>
+              </div>
+              <div id="save">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" class="h-6 mt-4.5 ml-1"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M128 128C128 92.7 156.7 64 192 64L448 64C483.3 64 512 92.7 512 128L512 545.1C512 570.7 483.5 585.9 462.2 571.7L320 476.8L177.8 571.7C156.5 585.9 128 570.6 128 545.1L128 128zM192 112C183.2 112 176 119.2 176 128L176 515.2L293.4 437C309.5 426.3 330.5 426.3 346.6 437L464 515.2L464 128C464 119.2 456.8 112 448 112L192 112z"/></svg>
+              </div>
+            </div>
+
+            <div id="likes-count">
+              <p class="font-bold text-[12px] mt-3">9735 likes</p>
+            </div>
+            <div id="bio-content" class="text-[14px] h-full">
+              <p><b>z.o.y.a_naaj</b>
+               Follow @sankalp_jauhari for more!
+              </p>
+               <br>
+               <div>
+               <p class="text-gray-400 text-[16px]">View All 35 Comments</p>
+               </div>
+               <div>
+                <p class="text-gray-400">Add a comment...</p>
+               </div>
+
+            </div>
+          </div>
+        </div>
+    </div>
+    
+    <div class="h-[2px] mt-12 bg-gray-400 w-3/5"></div>
+
+    <div id="reel3" class="h-full mt-10 w-3/5 flex flex-col">
+        <div id="profile" class="h-14 w-full flex">
+          <div id="dp" class="w-12 h-8 rounded-full">
+            <img src="pfp-reel3.jpg" alt="Dadhi" class="h-8 w-8 rounded-full border-gray-400 border-[1px]">
+          </div>
+          <div id="id" class="flex flex-col h-full">
+            <div id="top-text" class="flex w-96">
+            <p class="text-[14px] ml-1 font-semibold">jugaad.jeetu</p>
+            <p class="ml-1 text-[14px]">•</p>
+            <p class="text-gray-400 text-[16px] ml-2">2w</p>
+            </div>
+            <div id="bottom-text" class="">
+              <p class="text-[12px] ml-1 mt-[-7px]">Original Audio</p>
+            </div>
+          </div>
+          <div id="options" class="h-full w-14 flex items-center justify-center  hover:cursor-pointer">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" class="h-[20px]"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M128 352C110.3 352 96 366.3 96 384C96 401.7 110.3 416 128 416L512 416C529.7 416 544 401.7 544 384C544 366.3 529.7 352 512 352L128 352zM128 224C110.3 224 96 238.3 96 256C96 273.7 110.3 288 128 288L512 288C529.7 288 544 273.7 544 256C544 238.3 529.7 224 512 224L128 224z"/></svg>
+          </div>
+        </div>
+        <div id="video" class="w-full h-[600px] bg-black">
+          <video src="Video-722.mp4" class="h-full w-full" autoplay="true" muted="true" loop="true" controls ></video>
+        </div>
+        <div id="bio" class="h-full w-full">
+          <div id="stats" class="h-20 w-full">
+            <div id="option" class="flex justify-between">
+              <div id="like" class="flex">
+              <div id="like">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" class="h-7 mt-4"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M442.9 144C415.6 144 389.9 157.1 373.9 179.2L339.5 226.8C335 233 327.8 236.7 320.1 236.7C312.4 236.7 305.2 233 300.7 226.8L266.3 179.2C250.3 157.1 224.6 144 197.3 144C150.3 144 112.2 182.1 112.2 229.1C112.2 279 144.2 327.5 180.3 371.4C221.4 421.4 271.7 465.4 306.2 491.7C309.4 494.1 314.1 495.9 320.2 495.9C326.3 495.9 331 494.1 334.2 491.7C368.7 465.4 419 421.3 460.1 371.4C496.3 327.5 528.2 279 528.2 229.1C528.2 182.1 490.1 144 443.1 144zM335 151.1C360 116.5 400.2 96 442.9 96C516.4 96 576 155.6 576 229.1C576 297.7 533.1 358 496.9 401.9C452.8 455.5 399.6 502 363.1 529.8C350.8 539.2 335.6 543.9 320 543.9C304.4 543.9 289.2 539.2 276.9 529.8C240.4 502 187.2 455.5 143.1 402C106.9 358.1 64 297.7 64 229.1C64 155.6 123.6 96 197.1 96C239.8 96 280 116.5 305 151.1L320 171.8L335 151.1z"/></svg>
+              </div>
+              <div id="comment">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" class="h-7 mt-4 ml-1"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M115.9 448.9C83.3 408.6 64 358.4 64 304C64 171.5 178.6 64 320 64C461.4 64 576 171.5 576 304C576 436.5 461.4 544 320 544C283.5 544 248.8 536.8 217.4 524L101 573.9C97.3 575.5 93.5 576 89.5 576C75.4 576 64 564.6 64 550.5C64 546.2 65.1 542 67.1 538.3L115.9 448.9zM153.2 418.7C165.4 433.8 167.3 454.8 158 471.9L140 505L198.5 479.9C210.3 474.8 223.7 474.7 235.6 479.6C261.3 490.1 289.8 496 319.9 496C437.7 496 527.9 407.2 527.9 304C527.9 200.8 437.8 112 320 112C202.2 112 112 200.8 112 304C112 346.8 127.1 386.4 153.2 418.7z"/></svg>
+              </div>
+              <div id="share">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" class="h-6 mt-4.5 ml-1"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M322.5 351.7L523.4 150.9L391 520.3L322.5 351.7zM489.4 117L288.6 317.8L120 249.3L489.4 117zM70.1 280.8L275.9 364.4L359.5 570.2C364.8 583.3 377.6 591.9 391.8 591.9C406.5 591.9 419.6 582.7 424.6 568.8L602.6 72C606.1 62.2 603.6 51.4 596.3 44C589 36.6 578.1 34.2 568.3 37.7L71.4 215.7C57.5 220.7 48.3 233.8 48.3 248.5C48.3 262.7 56.9 275.5 70 280.8z"/></svg>
+              </div>
+              </div>
+              <div id="save">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" class="h-6 mt-4.5 ml-1"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M128 128C128 92.7 156.7 64 192 64L448 64C483.3 64 512 92.7 512 128L512 545.1C512 570.7 483.5 585.9 462.2 571.7L320 476.8L177.8 571.7C156.5 585.9 128 570.6 128 545.1L128 128zM192 112C183.2 112 176 119.2 176 128L176 515.2L293.4 437C309.5 426.3 330.5 426.3 346.6 437L464 515.2L464 128C464 119.2 456.8 112 448 112L192 112z"/></svg>
+              </div>
+            </div>
+
+            <div id="likes-count">
+              <p class="font-bold text-[12px] mt-3">2732 likes</p>
+            </div>
+            <div id="bio-content" class="text-[14px] h-full">
+              <p><b>jugaad.jeetu</b>
+               🎯 JEE Mains 2025 ka actual question tha yeh!
+                   Vaibhav ne try kiya… values put kiye… fir bhi nahi aaya answer! 😓
+                   Jeetu Bhaiya ne 30 second mein concept tod diya! 💥
+
+                  📚 Formula yaad na ho toh bhi darr mat — derive karna seekh!
+                  🧠 Concepts strong karo, marks apne aap aayenge.
+
+                  👇
+                  Join karo 5-Month JEE Roadmap
+                  Har chapter, har formula, full revision plan ✅
+                  💬 Comment “Link” and I’ll send the PDF in DM!
+
+                   #jeetubhaiya #jeemains2025 #roadmapto99percentile #physicsconcepts #projectilemotion #iitjeeprep #jeestrategy #jeerevision #edstartai
+              </p>
+               <br>
+               <div>
+               <p class="text-gray-400 text-[16px]">View All 131 Comments</p>
+               </div>
+               <div>
+                <p class="text-gray-400">Add a comment...</p>
+               </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="h-[2px] mt-12 bg-gray-400 w-3/5"></div>
+
+
+    </div>
+
+    </div>
+
+    <div id="right" class="h-96 w-80 flex flex-col mt-10">
+      <div id="switch" class="flex h-14 w-full items-center justify-center">
+        <div id="pfp" class="w-14 h-14 rounded-full">
+          <img src="pfp1.jpg" alt="pfp" class="h-12 w-12 rounded-full">
+        </div>
+        <div id="content-area" class="w-44">
+          <p class="text-[14px] font-semibold">saksham_garg4502</p>
+          <p class="text-[14px] text-gray-500"> youtuber town</p>
+        </div>
+        <div class="w-16">
+          <p class="text-blue-500 font-semibold text-[14px]">switch</p>
+        </div>
+      </div>
+
+      <div class="flex justify-between mt-5">
+        <p class="text-[14px] text-gray-500">Suggested For You</p>
+        <p class="mr-9 text-[12px]">See All</p>
+      </div>
+      <div id="suggested" class="mt-7">
+      <div id="profile-1" class="flex h-14 w-full items-center justify-center">
+        <div id="pfp" class="w-14 h-14 rounded-full">
+          <img src="profile-1.jpg" alt="pfp" class="h-12 w-12 rounded-full">
+        </div>
+        <div id="content-area" class="w-44">
+          <p class="text-[14px] font-semibold">Ashish_iitkanpur</p>
+          <p class="text-[10px] text-gray-500">followed by saleem.nitt and 59 others</p>
+        </div>
+        <div class="w-16">
+          <p class="text-blue-500 font-semibold text-[14px]">Follow</p>
+        </div>
+      </div>
+
+      <div id="profile-2" class="flex h-14 w-full items-center justify-center">
+        <div id="pfp" class="w-14 h-14 rounded-full">
+          <img src="profile-2.jpg" alt="pfp" class="h-12 w-12 rounded-full">
+        </div>
+        <div id="content-area" class="w-44">
+          <p class="text-[14px] font-semibold">atrijsuyal</p>
+          <p class="text-[10px] text-gray-500">followed by garvitagg.45 and 5 others</p>
+        </div>
+        <div class="w-16">
+          <p class="text-blue-500 font-semibold text-[14px]">Follow</p>
+        </div>
+      </div>
+
+      <div id="profile-3" class="flex h-14 w-full items-center justify-center">
+        <div id="pfp" class="w-14 h-14 rounded-full">
+          <img src="profile-3.jpg" alt="pfp" class="h-12 w-12 rounded-full">
+        </div>
+        <div id="content-area" class="w-44">
+          <p class="text-[14px] font-semibold">sehpathiyo</p>
+          <p class="text-[10px] text-gray-500">Followed by mudit.garg0209</p>
+        </div>
+        <div class="w-16">
+          <p class="text-blue-500 font-semibold text-[14px]">Follow</p>
+        </div>
+      </div>
+
+      <div id="profile-4" class="flex h-14 w-full items-center justify-center">
+        <div id="pfp" class="w-14 h-14 rounded-full">
+          <img src="profile-4.jpg" alt="pfp" class="h-12 w-12 rounded-full">
+        </div>
+        <div id="content-area" class="w-44">
+          <p class="text-[14px] font-semibold">vaibhavgupta6282</p>
+          <p class="text-[10px] text-gray-500">Followed by dpgupta</p>
+        </div>
+        <div class="w-16">
+          <p class="text-blue-500 font-semibold text-[14px]">Follow</p>
+        </div>
+      </div>
+
+      <div id="profile-5" class="flex h-14 w-full items-center justify-center">
+        <div id="pfp" class="w-14 h-14 rounded-full">
+          <img src="profile-5.jpg" alt="pfp" class="h-12 w-12 rounded-full">
+        </div>
+        <div id="content-area" class="w-44">
+          <p class="text-[14px] font-semibold">devanshxh___56</p>
+          <p class="text-[10px] text-gray-500">Followed by vaibhavgupta6282 and 5 others/p>
+        </div>
+        <div class="w-16">
+          <p class="text-blue-500 font-semibold text-[14px]">Follow</p>
+        </div>
+      </div>
+      </div>
+  </body>
+</html>
